@@ -10,6 +10,7 @@ import { BsTwitter } from "react-icons/bs";
 import { ImSkype } from "react-icons/im";
 import { FaWhatsapp } from "react-icons/fa";
 import hero from "../../assets/hero.jpg";
+import processor from "../../assets/processor.jpg";
 
 const Home = () => {
   return (
@@ -65,7 +66,7 @@ const Home = () => {
       {/* Download button */}
       <div className="flex justify-center pt-6 md:pt-16">
         <a
-          href="/src/assets/processor.jpg"
+          href={processor}
           download="processor.jpg"
           className="px-6 py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold rounded-lg shadow-md hover:from-purple-600 hover:to-blue-600 transition-transform transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-300 focus:ring-offset-2 active:scale-95"
         >
