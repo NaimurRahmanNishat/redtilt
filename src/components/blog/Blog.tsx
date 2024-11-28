@@ -1,30 +1,33 @@
 import { useState } from "react";
 import { FaArrowCircleRight } from "react-icons/fa";
+import portfolio1 from "../../assets/portfolio-1.png";
+import portfolio2 from "../../assets/portfolio-2.png";
+import portfolio3 from "../../assets/portfolio-3.png";
 
 const Blog = () => {
   const [showMore, setShowMore] = useState(false);
 
   const handleReadMore = () => {
-    setShowMore((prevState) => !prevState); 
+    setShowMore((prevState) => !prevState);
   };
 
   const blogEntries = [
     {
-      imgSrc: "/src/assets/portfolio-1.png",
+      imgSrc: portfolio1, 
       title: "Not Another Framework",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima dolore assumenda dolores consequuntur ipsa accusamus cumque magni rerum sapiente dolorum! Obcaecati sit consequatur reiciendis earum ullam minima illo doloremque.",
       category: "Collaboration Tools",
     },
     {
-      imgSrc: "/src/assets/portfolio-2.png",
+      imgSrc: portfolio2,
       title: "Startup Secrets",
       description:
         "Discover tips for startups. Minima dolore assumenda dolores consequuntur ipsa accusamus cumque magni rerum sapiente dolorum.",
       category: "Startup Tools",
     },
     {
-      imgSrc: "/src/assets/portfolio-3.png",
+      imgSrc: portfolio3,
       title: "Scaling Up",
       description:
         "Learn how companies scale effectively. Minima dolore assumenda dolores consequuntur ipsa accusamus cumque magni rerum sapiente dolorum.",
