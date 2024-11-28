@@ -9,6 +9,7 @@ import { SiGithub } from "react-icons/si";
 import { BsTwitter } from "react-icons/bs";
 import { ImSkype } from "react-icons/im";
 import { FaWhatsapp } from "react-icons/fa";
+import hero from "../../assets/hero.jpg";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
         {/* Left side image */}
         <div className="pt-4 md:pt-8 order-2 md:order-1">
           <img
-            src="/src/assets/hero.jpg"
+            src={hero}
             alt="hero_image"
             className="rounded-sm"
           />
